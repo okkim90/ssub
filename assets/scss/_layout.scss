@@ -1,14 +1,12 @@
 
-html, body {
-    background-color: $c_key;
-}
+
 
 #wrap {
-    background-color: $c_key;
+    
     overflow: hidden;
     max-width: 700px;
     margin: 0 auto;
-    padding: 0 20px;
+    
    
 }
 
@@ -19,6 +17,8 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: $c_key;
+    padding: 0 20px;
     &_logo {
         border-radius: 50%;
         width: 500px;
