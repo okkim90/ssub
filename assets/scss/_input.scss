@@ -1,0 +1,64 @@
+.f_input {
+    max-width: 100%;
+    border: 1px solid $c_line;
+    box-sizing: border-box;
+    vertical-align: middle;
+    &:read-only {
+        background-color: rgba(0,0,0,.02);
+        &:focus {
+            background-color: rgba(0,0,0,.02);
+        }
+    }
+    &.taC {
+        text-align: center;
+    }
+    &.w100 {
+        width: 100%;
+    }
+    &.ty_xsmall {
+        height: 22px;
+        padding: 0 5px;
+        border-radius: 4px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    &.ty_small {
+        height: 26px;
+        padding: 0 5px;
+        border-radius: 4px;
+        font-size: 12px;
+        &.inp_date {
+            width: 110px;
+            padding-right: 24px;
+            background-position: calc(100% - 4px) center;
+        }
+    }
+    &.ty_mid {
+        height: 36px;
+        padding: 0 10px;
+        border-radius: 4px;
+        font-size: 14px;
+        &.inp_date {
+            padding-right: 30px;
+            background-position: calc(100% - 8px) center;
+        }
+    }
+    &.ty_big {
+        height: 50px;
+        padding: 0 15px;
+        border-radius: 6px;
+    }
+    &.inp_date {
+        &:read-only {
+            background-color: #fff;
+        }
+        background-repeat: no-repeat;
+        background-image: url(../images/common/ico_cal.svg);
+        background-size: 14px;
+        
+        cursor: pointer;
+        & ~ .f_btn {
+            @include btn($c_lightGrey, $c_lightGrey)
+        }
+    }
+}

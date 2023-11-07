@@ -1,0 +1,31 @@
+
+html, body {
+    background-color: $c_key;
+}
+
+#wrap {
+    background-color: $c_key;
+    overflow: hidden;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+   
+}
+
+.login_wrap {
+    text-align: center;
+    min-height: var(--app-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &_logo {
+        border-radius: 50%;
+        width: 500px;
+        
+    }
+    .btn_kakao {
+        margin-top: 40px;
+    }
+}
+
