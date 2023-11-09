@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/common.min.css">
+</head>
+<body>
+    <div id="wrap">
+        <div class="inner">
+            <div class="w_280">
+                <form action="">
+                    <label for="phone">휴대폰 번호를 입력해주세요.</label>
+                    <input 
+                        type="tel" 
+                        id="phone" 
+                        class="f_input ty_big w100 mt5" 
+                        placeholder="'-' 없이 번호만 입력해주세요."
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+                    >
+                    <button type="submit" class="f_btn ty_big _red w100 mt20">결제하기</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        ['DOMContentLoaded', 'resize'].forEach(event => window.addEventListener(event, function (ev) {
+            const { innerHeight } = window;
+            document.documentElement.style.setProperty("--app-height",`${innerHeight}px`);
+        }));
+    </script>
+</body>
+</html>

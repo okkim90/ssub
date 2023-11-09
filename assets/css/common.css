@@ -18,6 +18,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #083030;
   border-color: #083030;
+  color: #fff;
 }
 .f_btn._key:hover {
   background-color: #031111;
@@ -88,6 +89,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #ea1a3f;
   border-color: #ea1a3f;
+  color: #fff;
 }
 .f_btn._key2:hover {
   background-color: #cd1334;
@@ -158,6 +160,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #ffc60a;
   border-color: #ffc60a;
+  color: #fff;
 }
 .f_btn._key3:hover {
   background-color: #e5b000;
@@ -228,6 +231,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #85bee2;
   border-color: #85bee2;
+  color: #fff;
 }
 .f_btn._key4:hover {
   background-color: #68afdb;
@@ -298,6 +302,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #aaa;
   border-color: #aaa;
+  color: #fff;
 }
 .f_btn._key5:hover {
   background-color: #989898;
@@ -368,6 +373,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #EFEFEF;
   border-color: #EFEFEF;
+  color: #fff;
 }
 .f_btn._key6:hover {
   background-color: #dddddd;
@@ -438,6 +444,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #353535;
   border-color: #353535;
+  color: #fff;
 }
 .f_btn._fc:hover {
   background-color: #232323;
@@ -508,6 +515,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #DDDDDD;
   border-color: #DDDDDD;
+  color: #fff;
 }
 .f_btn._line:hover {
   background-color: #cbcbcb;
@@ -578,6 +586,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #F9F9F9;
   border-color: #F9F9F9;
+  color: #fff;
 }
 .f_btn._bg:hover {
   background-color: #e7e7e7;
@@ -648,6 +657,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #EFEFEF;
   border-color: #EFEFEF;
+  color: #fff;
 }
 .f_btn._bg_grey:hover {
   background-color: #dddddd;
@@ -718,6 +728,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #0085FF;
   border-color: #0085FF;
+  color: #fff;
 }
 .f_btn._blue:hover {
   background-color: #0072db;
@@ -788,6 +799,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #005AAD;
   border-color: #005AAD;
+  color: #fff;
 }
 .f_btn._navy:hover {
   background-color: #004789;
@@ -858,6 +870,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #acbdee;
   border-color: #acbdee;
+  color: #fff;
 }
 .f_btn._sky:hover {
   background-color: #8ea5e8;
@@ -928,6 +941,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #DC0000;
   border-color: #DC0000;
+  color: #fff;
 }
 .f_btn._red:hover {
   background-color: #b80000;
@@ -998,6 +1012,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #63c1fc;
   border-color: #63c1fc;
+  color: #fff;
 }
 .f_btn._lblue:hover {
   background-color: #40b3fb;
@@ -1068,6 +1083,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #FF7A00;
   border-color: #FF7A00;
+  color: #fff;
 }
 .f_btn._orange:hover {
   background-color: #db6900;
@@ -1138,6 +1154,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #2ecc71;
   border-color: #2ecc71;
+  color: #fff;
 }
 .f_btn._green:hover {
   background-color: #27af61;
@@ -1208,6 +1225,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #ffc107;
   border-color: #ffc107;
+  color: #fff;
 }
 .f_btn._yellow:hover {
   background-color: #e2aa00;
@@ -1278,6 +1296,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #7636FF;
   border-color: #7636FF;
+  color: #fff;
 }
 .f_btn._purple:hover {
   background-color: #5e12ff;
@@ -1348,6 +1367,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #aaa;
   border-color: #aaa;
+  color: #fff;
 }
 .f_btn._lightGrey:hover {
   background-color: #989898;
@@ -1418,6 +1438,7 @@
   transition: all 0.1s ease-in-out;
   background-color: #393939;
   border-color: #393939;
+  color: #fff;
 }
 .f_btn._solidGrey:hover {
   background-color: #272727;
@@ -3658,6 +3679,42 @@
   width: calc(10% - 18px);
 }
 
+.fw_100 {
+  font-weight: 100;
+}
+
+.fw_200 {
+  font-weight: 200;
+}
+
+.fw_300 {
+  font-weight: 300;
+}
+
+.fw_400 {
+  font-weight: 400;
+}
+
+.fw_500 {
+  font-weight: 500;
+}
+
+.fw_600 {
+  font-weight: 600;
+}
+
+.fw_700 {
+  font-weight: 700;
+}
+
+.fw_800 {
+  font-weight: 800;
+}
+
+.fw_900 {
+  font-weight: 900;
+}
+
 .d_flex {
   display: flex;
 }
@@ -3750,6 +3807,9 @@
 }
 .d_flex._gap30 {
   gap: 30px;
+}
+.d_flex.fd_c {
+  flex-direction: column;
 }
 .d_flex.fw_w {
   flex-wrap: wrap;
@@ -3902,7 +3962,7 @@ body {
   font-size: 16px;
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   color: #353535;
-  letter-spacing: -0.4px;
+  letter-spacing: -0.2px;
   overflow-x: auto;
 }
 
@@ -4459,6 +4519,20 @@ input::-webkit-search-results-decoration {
 .f_btn.w100 {
   width: 100%;
 }
+.f_btn.disabled {
+  position: relative;
+  opacity: 0.5;
+  pointer-events: none;
+}
+.f_btn.disabled::after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 50%;
+  height: 1px;
+  background-color: #fff;
+}
 
 .btn_kakao {
   display: flex;
@@ -4535,6 +4609,7 @@ input::-webkit-search-results-decoration {
   height: 50px;
   padding: 0 15px;
   border-radius: 6px;
+  font-size: 16px;
 }
 .f_input.inp_date {
   background-repeat: no-repeat;
@@ -4552,6 +4627,7 @@ input::-webkit-search-results-decoration {
   transition: all 0.1s ease-in-out;
   background-color: #aaa;
   border-color: #aaa;
+  color: #fff;
 }
 .f_input.inp_date ~ .f_btn:hover {
   background-color: #989898;
@@ -4570,6 +4646,15 @@ input::-webkit-search-results-decoration {
   margin: 0 auto;
 }
 
+.inner {
+  padding: 40px 20px;
+  min-height: var(--app-height);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .login_wrap {
   text-align: center;
   min-height: var(--app-height);
@@ -4586,4 +4671,10 @@ input::-webkit-search-results-decoration {
 }
 .login_wrap .btn_kakao {
   margin-top: 40px;
+}
+
+.qr_box {
+  border: 1px solid #DDDDDD;
+  border-radius: 6px;
+  padding: 10px;
 }

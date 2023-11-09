@@ -83,6 +83,20 @@
     &.w100 {
         width: 100%;
     }
+    &.disabled {
+        position: relative;
+        opacity: 0.5;
+        pointer-events: none;
+        &::after {
+            content: '';
+            position: absolute;
+            left: 20px;
+            right: 20px;
+            top: 50%;
+            height: 1px;
+            background-color: #fff;
+        }
+    }
 }
 
 .btn_kakao {

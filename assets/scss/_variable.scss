@@ -44,11 +44,11 @@ $fz: (
 );
 
 
-@mixin btn($bg, $bd){
+@mixin btn( $bg, $bd){
     transition: all .1s ease-in-out;
     background-color: $bg;
     border-color: $bd;
-    //color: #fff;
+    color: #fff;
     &:hover {
         background-color: darken( $bg, 7%);
         border-color: darken($bd, 7%);
@@ -320,6 +320,12 @@ $inner: 1280px;
     @include list_col($i ,20px, 30px);
 } 
 
+@for $i from 1 through 9 {
+    $w : 100*$i;
+    .fw_#{$w} {
+        font-weight: $w;
+    }
+}
 
 
 
@@ -341,6 +347,9 @@ $inner: 1280px;
             gap : #{$i}px
         } 
     } 
+    &.fd_c {
+        flex-direction: column;
+    }
     &.fw_w {
         flex-wrap: wrap;
     }
@@ -370,3 +379,5 @@ $inner: 1280px;
 .mr_auto {
     margin-right: auto;
 }
+
+

@@ -5,9 +5,16 @@
     
     overflow: hidden;
     max-width: 700px;
-    margin: 0 auto;
+    margin: 0 auto; 
     
-   
+}
+.inner {
+    padding: 40px 20px;
+    min-height: var(--app-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .login_wrap {
@@ -29,3 +36,8 @@
     }
 }
 
+.qr_box {
+    border: 1px solid $c_line;
+    border-radius: 6px;
+    padding: 10px;
+}
