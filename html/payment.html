@@ -12,8 +12,25 @@
     <div id="wrap">
         <div class="inner">
             <div class="contents">
+                <div class="sub_tit">
+                    <h2>결제정보</h2>
+                </div>
+                <ul class="payment_info mb40">
+                    <li class="payment_info_item">
+                        <span class="tit">상품</span>   
+                        <span class="cont">SSUB LOUNGE 1 DAY PASS</span> 
+                    </li>
+                    <li class="payment_info_item">
+                        <span class="tit">금액</span>
+                        <span class="cont">99,000 원</span> 
+                    </li>
+                    <li class="payment_info_item ty_total">
+                        <span class="tit">총 결제금액</span> 
+                        <span class="cont"><span class="fc_red">99,000</span> 원</span>
+                    </li>
+                </ul>
                 <form action="">
-                    <label for="phone">휴대폰 번호를 입력해주세요.</label>
+                    <label for="phone" class="fz_mid">휴대폰 번호를 입력해주세요.</label>
                     <input 
                         type="tel" 
                         id="phone" 
@@ -21,7 +38,7 @@
                         placeholder="'-' 없이 번호만 입력해주세요."
                         oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
                     >
-                    <button type="submit" class="f_btn ty_big _red w100 mt20">결제하기</button>
+                    <button type="submit" class="f_btn ty_big _red w100 mt15">결제하기</button>
                 </form>
             </div>
         </div>

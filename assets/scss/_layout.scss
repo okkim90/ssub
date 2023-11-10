@@ -4,7 +4,7 @@
 #wrap {
     
     overflow: hidden;
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto; 
     
 }
@@ -46,4 +46,81 @@
     border: 1px solid $c_line;
     border-radius: 6px;
     padding: 10px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+.sub_tit { 
+    margin-bottom: 1rem;
+    h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+.payment_info {
+    background-color: rgba($c_key, .06);
+    padding: 15px;
+    border-radius: 10px;
+    &_item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        & + & {
+            margin-top: 6px;
+        }
+       
+        .tit {
+            font-size: 14px;
+            color: $c_solidGrey;
+            white-space: nowrap;
+            flex-shrink: 0;
+            padding-right:20px;
+        }
+        .cont {
+            font-size: 16px;
+            font-weight: 500;
+            text-align: right;
+        }
+        &.ty_total {
+            padding-top: 10px;
+            margin-top: 10px;
+            border-top: 1px solid $c_line;
+            .tit {
+                font-size: 16px;
+            }
+            .cont {
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.use_process {
+    margin-top: 50px;
+    text-align: left;
+    .tit {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 0.8rem;
+    }
+    &_list {
+        font-size: 0.9rem;
+        li {
+            padding-left: 10px;
+            position: relative;
+            & + li {
+                margin-top: 4px;
+            }
+            &::before {
+                content: '•';
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+    }
 }

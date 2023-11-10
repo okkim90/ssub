@@ -3841,6 +3841,14 @@
   margin-right: auto;
 }
 
+.taC {
+  text-align: center;
+}
+
+.taR {
+  text-align: right;
+}
+
 /*반응형 화면 크기*/
 .t_hidden_2 {
   width: 100%;
@@ -4508,6 +4516,7 @@ input::-webkit-search-results-decoration {
 
 .btn_kakao {
   display: flex;
+  flex-direction: row;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
@@ -4614,7 +4623,7 @@ input::-webkit-search-results-decoration {
 /* layout*/
 #wrap {
   overflow: hidden;
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -4652,4 +4661,79 @@ input::-webkit-search-results-decoration {
   border: 1px solid #DDDDDD;
   border-radius: 6px;
   padding: 10px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.sub_tit {
+  margin-bottom: 1rem;
+}
+.sub_tit h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.payment_info {
+  background-color: rgba(8, 48, 48, 0.06);
+  padding: 15px;
+  border-radius: 10px;
+}
+.payment_info_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.payment_info_item + .payment_info_item {
+  margin-top: 6px;
+}
+.payment_info_item .tit {
+  font-size: 14px;
+  color: #393939;
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding-right: 20px;
+}
+.payment_info_item .cont {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: right;
+}
+.payment_info_item.ty_total {
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #DDDDDD;
+}
+.payment_info_item.ty_total .tit {
+  font-size: 16px;
+}
+.payment_info_item.ty_total .cont {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.use_process {
+  margin-top: 50px;
+  text-align: left;
+}
+.use_process .tit {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+.use_process_list {
+  font-size: 0.9rem;
+}
+.use_process_list li {
+  padding-left: 10px;
+  position: relative;
+}
+.use_process_list li + li {
+  margin-top: 4px;
+}
+.use_process_list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
 }
