@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Document</title>
+    <script src="../assets/js/main.js"></script>
     <link rel="stylesheet" href="../assets/css/common.min.css">
 </head>
 <body>
     <div id="wrap">
         <div class="inner">
-            <div class="w_280">
+            <div class="contents">
                 <form action="">
                     <label for="phone">휴대폰 번호를 입력해주세요.</label>
                     <input 
@@ -25,11 +26,6 @@
             </div>
         </div>
     </div>
-    <script>
-        ['DOMContentLoaded', 'resize'].forEach(event => window.addEventListener(event, function (ev) {
-            const { innerHeight } = window;
-            document.documentElement.style.setProperty("--app-height",`${innerHeight}px`);
-        }));
-    </script>
+    
 </body>
 </html>

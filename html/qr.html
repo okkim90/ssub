@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Document</title>
+    <script src="../assets/js/main.js"></script>
     <link rel="stylesheet" href="../assets/css/common.min.css">
 </head>
 <body>
     <div id="wrap">
         <div class="inner">
-            <div class="w_280">
+            <div class="contents">
                 <div class="qr_box">
                     <img src="../assets/img/QR_Code_example.png" alt="">
                 </div>
@@ -22,10 +23,7 @@
         </div>
     </div>
     <script>
-        ['DOMContentLoaded', 'resize'].forEach(event => window.addEventListener(event, function (ev) {
-            const { innerHeight } = window;
-            document.documentElement.style.setProperty("--app-height",`${innerHeight}px`);
-        }));
+     
 
         function forceDownload(link){
             var url = link.getAttribute("data-href");

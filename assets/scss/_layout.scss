@@ -12,10 +12,16 @@
     padding: 40px 20px;
     min-height: var(--app-height);
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
+    background-color: #fff;
+    .contents {
+        width: 100%;
+    }
 }
+
+
 
 .login_wrap {
     text-align: center;

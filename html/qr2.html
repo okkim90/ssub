@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Document</title>
+    <script src="../assets/js/main.js"></script>
     <link rel="stylesheet" href="../assets/css/common.min.css">
     <script src="../assets/js/html2canvas.js"></script>
 </head>
 <body>
     <div id="wrap">
-        <div class="inner">
-            <div class="w_280">
-                <div id="capture_area" class="qr_box">
+        <div class="inner" id="capture_area" >
+            <div class="contents">
+                <div class="qr_box">
                     <img src="../assets/img/QR_Code_example.png" alt="">
                 </div>
                 <!-- <a href="../assets/img/QR_code_for_mobile_English_Wikipedia.svg" target="_top" class="f_btn ty_big _red w100 mt15"  download="ImageName" title="ImageName">
@@ -23,10 +24,7 @@
         </div>
     </div>
     <script>
-        ['DOMContentLoaded', 'resize'].forEach(event => window.addEventListener(event, function (ev) {
-            const { innerHeight } = window;
-            document.documentElement.style.setProperty("--app-height",`${innerHeight}px`);
-        }));
+      
 
         document.querySelector('.f_btn').addEventListener('click',function(e){
             html2canvas(document.getElementById("capture_area")).then(function(canvas) {
