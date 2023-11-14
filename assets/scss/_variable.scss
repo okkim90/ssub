@@ -49,15 +49,15 @@ $fz: (
     background-color: $bg;
     border-color: $bd;
     color: #fff;
-    &:hover {
-        background-color: darken( $bg, 7%);
-        border-color: darken($bd, 7%);
-        box-shadow: 0 2px 3px rgba(#000, 0.2);
-    }
-    &:active {
-        box-shadow: inset 0 0 4px rgba(#000, 0.2);
-        transform: scale(0.97);
-    }
+    // &:hover {
+    //     background-color: darken( $bg, 7%);
+    //     border-color: darken($bd, 7%);
+    //     box-shadow: 0 2px 3px rgba(#000, 0.2);
+    // }
+    // &:active {
+    //     box-shadow: inset 0 0 4px rgba(#000, 0.2);
+    //     transform: scale(0.97);
+    // }
 }
 
 @mixin btn_sort($bg, $on_bg, $fc, $on_fc ){
@@ -65,28 +65,28 @@ $fz: (
     background-color: $bg;
     border-color: $bg;
     //color: #fff;
-    &:hover {
-        background-color: darken( $bg, 7%);
-        border-color: darken($bg, 7%);
-        box-shadow: 0 2px 3px rgba(#000, 0.2);
-    }
-    &:active {
-        box-shadow: inset 0 0 4px rgba(#000, 0.2);
-        transform: scale(0.975);
-    }
+    // &:hover {
+    //     background-color: darken( $bg, 7%);
+    //     border-color: darken($bg, 7%);
+    //     box-shadow: 0 2px 3px rgba(#000, 0.2);
+    // }
+    // &:active {
+    //     box-shadow: inset 0 0 4px rgba(#000, 0.2);
+    //     transform: scale(0.975);
+    // }
 
     &.on {
         background-color: $on_bg;
         border-color: $on_bg;
         color: $on_fc;
-        &:hover {
-            background-color: darken( $on_bg, 7%);
-            border-color: darken($on_bg, 7%);
-            box-shadow: 0 2px 3px rgba(#000, 0.2);
-        }
-        &:active {
-            box-shadow: inset 0 0 4px rgba(#000, 0.2);
-        }
+        // &:hover {
+        //     background-color: darken( $on_bg, 7%);
+        //     border-color: darken($on_bg, 7%);
+        //     box-shadow: 0 2px 3px rgba(#000, 0.2);
+        // }
+        // &:active {
+        //     box-shadow: inset 0 0 4px rgba(#000, 0.2);
+        // }
     }
 }
 
@@ -96,14 +96,14 @@ $fz: (
     background-color: rgba($color, .15);
     border-color: $bd;
     color: $color;
-    &:hover {
-        background-color: rgba($color, .3); 
-        //color: #fff;
-    }
-    &:active {
-        box-shadow: inset 0 0 4px rgba(#000, 0.3);
-        transform: scale(0.97);
-    }
+    // &:hover {
+    //     background-color: rgba($color, .3); 
+    //     //color: #fff;
+    // }
+    // &:active {
+    //     box-shadow: inset 0 0 4px rgba(#000, 0.3);
+    //     transform: scale(0.97);
+    // }
 }
 
 @mixin btn_ol($bd ,$color){
@@ -111,14 +111,14 @@ $fz: (
     background-color: transparent;
     border-color: $bd;
     color: $color;
-    &:hover {
-        background-color: $color;
-        color: #fff;
-    }
-    &:active {
-        box-shadow: inset 0 0 4px rgba(#000, 0.3);
-        transform: scale(0.97);
-    }
+    // &:hover {
+    //     background-color: $color;
+    //     color: #fff;
+    // }
+    // &:active {
+    //     box-shadow: inset 0 0 4px rgba(#000, 0.3);
+    //     transform: scale(0.97);
+    // }
 }
 
 
@@ -373,6 +373,9 @@ $inner: 1280px;
     }
 }
 
+.m_auto {
+    margin: 0 auto;
+}
 .ml_auto {
     margin-left: auto;
 }

@@ -59,6 +59,11 @@
         text-align: center;
     }
 }
+.grey_box {
+    background-color: rgba($c_key, .06);
+    padding: 15px;
+    border-radius: 10px;
+}
 
 .payment_info {
     background-color: rgba($c_key, .06);
